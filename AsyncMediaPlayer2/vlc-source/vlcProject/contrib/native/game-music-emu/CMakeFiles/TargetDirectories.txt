@@ -1,0 +1,2 @@
+/home/vlc/vlcProject/vlc-2.2/contrib/native/game-music-emu/demo/CMakeFiles/demo.dir
+/home/vlc/vlcProject/vlc-2.2/contrib/native/game-music-emu/gme/CMakeFiles/gme.dir

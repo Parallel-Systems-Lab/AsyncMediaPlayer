@@ -1,0 +1,4 @@
+/home/vlc/vlcProject/vlc-2.2/contrib/native/musepack/libmpcdec/CMakeFiles/mpcdec_static.dir
+/home/vlc/vlcProject/vlc-2.2/contrib/native/musepack/libwavformat/CMakeFiles/wavformat_static.dir
+/home/vlc/vlcProject/vlc-2.2/contrib/native/musepack/libmpcenc/CMakeFiles/mpcenc_static.dir
+/home/vlc/vlcProject/vlc-2.2/contrib/native/musepack/libmpcpsy/CMakeFiles/mpcpsy_static.dir

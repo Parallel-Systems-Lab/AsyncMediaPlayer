@@ -1,0 +1,5 @@
+rate 1.0
+sleep 7.0
+rate 0.1
+sleep -0.0
+rate 1.0

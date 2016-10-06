@@ -1,0 +1,42 @@
+package editor;
+
+import org.junit.Test;
+
+
+public class testMaskCreator {
+
+	@Test
+	public void test() {
+		SyncPoints pointsDB = new SyncPoints();
+		
+		
+		data d1 = new data();
+		d1.soundRate = 1.2f;
+		d1.videoRate = 1.2f;
+		d1.type = data.SyncType.SyncTypeDontWait;
+		d1.startInSeconds = 5;
+		
+		
+		data d2 = new data();
+		d2.soundRate = 1.2f;
+		d2.videoRate = 0.6f;
+		d2.type = data.SyncType.SyncTypeDT;
+		d2.dt = 6;
+		d2.startInSeconds = 10;
+		
+		data d3 = new data();
+		d3.soundRate = 1.0f;
+		d3.videoRate = 1.0f;
+		d3.type = data.SyncType.SyncTypeDontWait;
+		d3.startInSeconds = 15;
+		
+		pointsDB.addPoint(d1);
+		pointsDB.addPoint(d2);
+		pointsDB.addPoint(d3);
+
+		
+		MaskCreator mc = new MaskCreator(pointsDB.points);
+		mc.printToFiles();
+	}
+
+}

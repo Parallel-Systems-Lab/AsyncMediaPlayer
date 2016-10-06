@@ -1,0 +1,3 @@
+/home/vlc/vlcProject/vlc-2.2/contrib/x86_64-linux-gnu/lib/libgme.a
+/home/vlc/vlcProject/vlc-2.2/contrib/x86_64-linux-gnu/include/gme/gme.h
+/home/vlc/vlcProject/vlc-2.2/contrib/x86_64-linux-gnu/lib/pkgconfig/libgme.pc
